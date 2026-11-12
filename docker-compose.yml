@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["python", "-m", "src.scheduler"]
+    restart: unless-stopped
+    volumes:
+      - ./sources.csv:/app/sources.csv:ro
+      - ./articles_bruts:/app/articles_bruts
+      - ./data:/app/data
+      - ./reports:/app/reports
+    environment:
+      PYTHONUNBUFFERED: "1"
+      SCHEDULE_TIMEZONE: Europe/Paris
+      SCHEDULE_HOUR: "6"
+      SCHEDULE_MINUTE: "30"

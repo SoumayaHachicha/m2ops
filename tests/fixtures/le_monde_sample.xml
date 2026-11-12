@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Le Monde – Une</title>
+    <link>https://www.lemonde.fr</link>
+    <description>Dernières actualités</description>
+    <item>
+      <title>La météo s’annonce chaude</title>
+      <link>https://www.lemonde.fr/monde/article/2026/11/12/la-meteo-s-annonce-chaude_1234567890.html</link>
+      <description>Une vague de chaleur touche l’Europe et les villes prennent des mesures.</description>
+      <pubDate>Thu, 12 Nov 2026 08:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Les élus relancent un plan climat</title>
+      <link>https://www.lemonde.fr/politique/article/2026/11/12/les-elus-relancent-un-plan-climat_1234567891.html</link>
+      <description>Les élus annoncent des mesures de soutien.</description>
+      <pubDate>Thu, 12 Nov 2026 07:30:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

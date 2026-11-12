@@ -1,0 +1,4 @@
+n_clusters: 4
+min_cluster_size: 2
+random_state: 42
+max_articles_hours: 24
